@@ -1,0 +1,33 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2025-07-21T22:33:54+07:00",
+    "name": "PaymenterBot",
+    "author": "miwoneleee@gmail.com",
+    "description": null,
+    "features": null,
+    "docker_images": {
+        "v1.1.0": "docker.io\/miwone\/paymenter-bot:v1.1.0",
+        "v1.0.5": "docker.io\/miwone\/paymenter-bot:v1.0.5",
+        "latest": "docker.io\/miwone\/paymenter-bot:latest"
+    },
+    "file_denylist": [],
+    "startup": "run",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"Successfully booted\"\r\n}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "alpine:3.4",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": []
+}
